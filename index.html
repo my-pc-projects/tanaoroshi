@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173e39">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+<title>備品の棚卸</title>
+</head>
+<body>
+<header><div><span class="eyebrow">自治会 / 備品管理</span><h1>備品の棚卸</h1></div><span id="connection"></span></header>
+<main id="app"></main>
+<nav><button data-view="home">倉庫</button><button data-view="summary">まとめ・送る</button><button data-view="settings">設定</button></nav>
+<dialog id="dialog"></dialog>
+<div id="toast" role="status"></div>
+<script src="xlsx.js"></script>
+<script src="qr.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
